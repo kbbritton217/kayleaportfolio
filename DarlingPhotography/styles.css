@@ -1,0 +1,481 @@
+/* 
+   Darling Photography style sheet 
+   Filename: styles.css
+
+   Author:   Kaylea Britton
+   Date:     03/17/2017
+ */
+ 
+ 
+ /* reset styles */
+html {
+   font-size: 20px;
+}
+h1, h2, img, nav, table, tbody, td, tfoot, th, thead, tr {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+ /* body and page container */
+ body {
+    background: #404148;
+	font-family: 'Pompiere', cursive;
+	color: #ecf0f1;
+	}
+header img {
+	max-width: 40%;
+	float: left;
+	margin-right: -5px;
+}
+article {
+	background-color: #ecf0f1;
+}
+h1 {
+	font-size: 1.5em;
+	display: inline-block;
+	padding-right: 0;
+	padding-left: 1em;
+	padding-top: 2em;
+	max-width: 40%;
+}
+article h2 {
+   font-family: 'Rouge Script', cursive;
+   font-size: 1.5em;
+   color: #1a1a1a;
+   margin-bottom: 5px;
+   text-align: center;
+}
+h4 {
+	  font-size: 1em;
+	  color: #1a1a1a;
+	  text-align: center;
+}
+.collagesmall {
+	margin: auto;
+	width: 75%;
+	padding-bottom: 50px;
+}
+.collagesmall img {
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+.desktoppic {
+	display: none;
+}
+article p {
+   color: #1a1a1a;
+   text-align: center;
+   padding: 5px;
+}
+article a {
+   color: #1a1a1a;
+   text-decoration: none;
+}
+article figure img {
+	max-width: 78%;
+}
+article figure.family {
+	max-width: 30%;
+}
+figcaption {
+	color: #1a1a1a;
+}
+em {
+	color: #b30077;
+}
+.social {
+	text-align: center;
+}
+.flatwoods h4:hover {
+	background: #74525f;
+	border-radius: 0.2em;
+	color: #ecf0f1;
+}
+h4 a:hover {
+	background: #74525f;
+	border-radius: 0.2em;		
+	color: #ecf0f1;
+}
+.gym h4:hover {
+	background: #74525f;
+	border-radius: 0.2em;		
+	color: #ecf0f1;
+}
+.city h4:hover {
+	background: #74525f;
+	border-radius: 0.2em;		
+	color: #ecf0f1;
+}
+.own h4:hover {
+	background: #74525f;
+	border-radius: 0.2em;		
+	color: #ecf0f1;
+}
+ 
+  /* navigation */
+.sitenavigation {
+   clear: both;
+}
+nav.sitenavigation a {
+   margin: 0;
+   padding: 0.1em;
+   display: inline;
+   color: #ecf0f1;
+   text-decoration: none;
+   font-size: .8em;
+}
+nav.sitenavigation {
+   padding: 1%;
+   text-align: center;
+}
+nav.sitenavigation ul {
+	padding: 0;
+}
+nav.sitenavigation li {
+   border: 0;
+   margin: 0;
+   padding: 0.25em;
+   display: inline-block;
+}
+nav.sitenavigation a:link {
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+}
+nav.sitenavigation a:hover {
+   background: #ecf0f1;
+   border-radius: 0.2em;
+   color: #1a1a1a;
+}
+
+
+/* main content tables */
+table {
+	margin-left: auto;
+	margin-right: auto;
+	color: #1a1a1a;
+}
+td, th {
+	border: 1px solid black;
+	font-size: 1.3em;
+}
+
+ /* footer styles */
+ footer {
+   margin-top: 90px;
+   margin-bottom: 45px;
+ }
+ .footer-title {
+	float: left;
+	padding-right: 50px;
+	color: #ecf0f1;
+ }
+.sitemap a {
+	text-decoration: none;
+	color: #ecf0f1; 
+	max-width: 50%;
+	padding-left: 50px;
+}
+.documentation a:hover {
+   background: #74525f;
+   border-radius: 0.2em;
+   color: #ecf0f1;
+}
+
+ /* tablet styles */
+ @media only screen and (min-width: 500px) {
+ /* header styles */
+  header img {
+	max-width: 30%;
+  }
+  h1 {
+	max-width: 50%;
+	font-size: 2.5em;
+  }
+ }
+ 
+ /* desktop styles */
+ @media only screen and (min-width: 768px) {
+   /* header styles */
+   header img {
+      max-width: 20%;
+   }
+   
+    /* body and page container */
+	h1 {
+	  font-size: 3.5em;
+	  margin-bottom: 20px;
+	  padding-top: 70px;
+	  max-width: 70%;
+    }
+	h3 {
+	  font-size: 1.5em;
+	  margin-bottom: 20px;
+	  color: #1a1a1a;
+	  text-align: center;
+	}
+	article {
+		background-size: cover;
+		overflow: auto;
+		clear: right;
+	}
+	article h2 {
+	  font-size: 2em;
+	  color: #1a1a1a;
+	  margin-bottom: 5px;
+	  margin-left: 50px;
+	  text-align: center;
+	  padding: 5px;
+	}
+	.collagesmall {
+		display: none;
+	}
+	article section {
+		background-size: cover;
+	}
+	article figure {
+		max-width: 43%;
+		display: inline-block;
+		margin-left: 50px;
+		text-align: center;
+	}
+	figure img {
+		max-width: 90%;
+	}
+	article figure.family {
+	max-width: 24%;
+	}
+	article .familysection {
+	margin-left: 70px;
+	margin-right: -50px;
+	}
+	article.twogrid figcaption {
+		padding: 15px;
+	}
+	article li {
+		display: inline-block;
+		padding: 25px;
+	}
+	article li a:hover {
+	  background: #1a1a1a;
+      border-radius: 0.2em;
+      color: #ecf0f1;
+	}
+	article figcaption.captionright {
+		float: right;
+		display: inline-block;
+	}
+	.index-p {
+		text-align: center;
+		padding-bottom: 25px;
+		margin-top: 30px;
+	}
+	.desktoppic {
+		display: block;
+		width: 75%;
+		margin: auto;
+		padding-bottom: 40px;
+	}
+	.desktoppic img {
+		display: block;
+		margin: auto;
+		width: 100%;
+	}
+	.visual {
+		display: inline-block;
+		margin-left: 25px;
+		max-width: 48%;
+	}
+	.visual img {
+		max-width: 95%;
+	}
+	.venue {
+		float: left;
+		margin-bottom: 30px;
+		overflow: hidden;
+		margin-right: 0;
+	}
+	.venuetext {
+		float: right;
+		margin-right: 55px;
+	}
+	.site {
+		clear: both;
+	}
+	
+	/* navigation */
+	nav.sitenavigation {
+		max-width: 75%;
+		float: right;
+	}
+	nav.sitenavigation ul {
+		margin: 0;
+	}
+	nav.sitenavigation li {
+		padding: .8em;
+	}
+	nav.sitenavigation a {
+		font-size: 1em;
+	}
+	
+	/* biography */
+	.family {
+		float: left;
+		display: inline-block;
+		padding: 10px;
+		max-width: 45%;
+		margin-left: 30px;
+	}
+	.passion {
+		display: inline-block;
+		padding: 10px;
+		max-width: 45%;
+	}
+	
+	/* break mold styles */
+	.breakmold {
+		padding: 0.6em 0 0;
+		overflow: visible;
+		height: 5000px;
+		background-size: cover;
+		background-position: center;
+	}
+	.breakmold figure {
+		display: none;
+	}
+	.breakmold section {
+		width: 100%;
+		height: 1000px;
+		float: none;
+		background-size: cover;
+		background-position: center;
+	}
+	article section.breakmold1 {
+		background-image: url("images/breakmoldsidekendra.jpg");
+	}
+	article section.breakmold2 {
+		background-image: url("images/breakmoldweights.jpg");
+	}
+	article section.breakmold3 {
+		background-image: url("images/breakmoldjess.jpg");
+	}
+	article section.breakmold4 {
+		background-image: url("images/breakmoldkendradarklip.jpg");
+	}
+	article section.breakmold5 {
+		background-image: url("images/breakmoldlealison.png");
+	}
+	article.breakmold section div {
+		width: 100%;
+		position: absolute;
+		left: 0;
+		z-index: 2;
+		background: white;
+		background: rgba(255,255,255,0.6);
+	}
+	article.breakmold p {
+		display: block;
+		margin: 0.6em;
+	}
+	.breakmold section div p {
+		font-weight: 600;
+	}
+	
+	/* form styles */
+	form {
+		padding: 10px;
+	}
+	
+	/* fieldset styles */
+	fieldset {
+		margin-bottom: 0.8em;
+	}
+	legend {
+		font-size: 1.25em;
+		color: #1a1a1a;
+	}
+	.contactinfo legend, .eventinfo, .message legend {
+		margin-left: -0.1em;
+		font-weight: bold;
+	}
+	.submitbutton {
+		border: none;
+	}
+	
+	/* field styles */
+	.contactinfo input, textarea {
+		border: 1px solid #ccc;
+		padding: 0.2em;
+		font-size: 1em;
+	}
+	select {
+		margin-bottom: 0.6em;
+	}
+	.contactinfo input {
+		position: absolute;
+		left: 10em;
+	}
+	#nameinput, #emailinput {
+		width: 25em;
+	}
+	#phoneinput {
+		width: 12em;
+	}
+	#submit {
+		border: none;
+		padding: 0.4em 0.6em;
+		background-color: #bfbfbf;
+		font-size: 1.25em;
+		border-radius: 10px;
+	}
+	
+	/* label styles */
+	label {
+		font-size: 1em;
+		line-height: 1.6em;
+		color: #1a1a1a;
+	}
+	.contactinfo label {
+		display: block;
+		position: relative;
+		margin: 0.8em 0;
+	}
+	.eventinfo label {
+		margin-right: 1.6em;
+	}
+	
+	/* footer */
+	footer {
+		margin: auto;
+		clear: both;
+		width: 28%;
+	}
+ }
+ 
+ /* large desktop styles */
+ @media only screen and (min-width: 1000px) {
+   /* body and page container */
+   article figure {
+		margin-right: 10px;
+	}
+	article .familysection {
+	  margin-left: 70px;
+	  margin-right: -50px;
+	}
+	article figure.family {
+	  max-width: 24%;
+	  display: inline-block;
+	}
+	
+   /* navigation */
+   nav.sitenavigation ul {
+		margin-top: -55px;
+	}
+	
+	/* footer */
+	footer {
+		padding: 10px;
+	}
+ }
