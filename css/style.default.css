@@ -89,7 +89,7 @@ section {
   border: 1px solid #696969;
   height: 180px;
   max-height: 180px;
-  max-width: 320px;
+  max-width: 294px;
 }
 .content {
   position: relative;
@@ -112,7 +112,22 @@ section {
     -ms-transform: translate(0, 0);
     transform: translate(0, 0);
   }
+  .box img {
+  border: 1px solid #696969;
+  height: 90px;
+  max-height: 161px;
+  max-width: 161px;
+  }
 }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .box img {
+  height: 110px;
+  max-height: 150px;
+  max-width: 200px;
+  }
+}
+
 .services .box {
   margin-top: 20px;
 }
