@@ -113,10 +113,9 @@ section {
     transform: translate(0, 0);
   }
   .box img {
-  border: 1px solid #696969;
-  height: 90px;
-  max-height: 161px;
-  max-width: 161px;
+    height: 90px;
+    max-height: 161px;
+    max-width: 161px;
   }
 }
 
