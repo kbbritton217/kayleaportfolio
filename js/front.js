@@ -153,25 +153,25 @@ $.fn.alignElementsSameHeight = function () {
     });
 }
 
-$(window).load(function () {
+// $(window).load(function () {
 
-    windowWidth = $(window).width();
-    windowHeight = $(window).height();
+//     windowWidth = $(window).width();
+//     windowHeight = $(window).height();
 
-    $(this).alignElementsSameHeight();
+//     $(this).alignElementsSameHeight();
 
-});
-$(window).resize(function () {
+// });
+// $(window).resize(function () {
 
-    newWindowWidth = $(window).width();
-    newWindowHeight = $(window).height();
+//     newWindowWidth = $(window).width();
+//     newWindowHeight = $(window).height();
 
-    if (windowWidth !== newWindowWidth) {
-        setTimeout(function () {
-            $(this).alignElementsSameHeight();
-        }, 100);
-        windowWidth = newWindowWidth;
-        windowHeight = newWindowHeight;
-    }
+//     if (windowWidth !== newWindowWidth) {
+//         setTimeout(function () {
+//             $(this).alignElementsSameHeight();
+//         }, 100);
+//         windowWidth = newWindowWidth;
+//         windowHeight = newWindowHeight;
+//     }
 
-});
+// });

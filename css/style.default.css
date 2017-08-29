@@ -87,6 +87,9 @@ section {
 }
 .box img {
   border: 1px solid #696969;
+  height: 180px;
+  max-height: 180px;
+  max-width: 320px;
 }
 .content {
   position: relative;
@@ -159,6 +162,10 @@ p.social a.instagram {
 }
 p.social a.email {
   background-color: #666;
+}
+.res a:visited {
+  text-decoration: none;
+  color: lightcoral;
 }
 .copyright {
   margin-top: 40px;
