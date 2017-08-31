@@ -138,10 +138,10 @@ section {
 }
 p.social {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 p.social a {
-  margin: 10px 15px 10px 0;
+  margin: 0 22px 50px 0;
   color: #fff;
   display: inline-block;
   width: 38px;
@@ -154,6 +154,9 @@ p.social a {
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   vertical-align: bottom;
+}
+p.res {
+  text-align: center;
 }
 p.social a i {
   vertical-align: bottom;
@@ -189,6 +192,7 @@ p.res a {
   margin-bottom: 40px;
   color: #eeeeee;
   font-style: italic;
+  font-size: 8px;
 }
 .copyright p.credit {
   text-align: right;
