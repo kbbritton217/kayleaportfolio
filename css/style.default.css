@@ -177,7 +177,7 @@ p.social a.instagram {
 p.social a.email {
   background-color: #666;
 }
-.res a:visited {
+p.res a {
   text-decoration: none;
   color: lightcoral;
 }
