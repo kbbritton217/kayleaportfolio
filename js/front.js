@@ -3,7 +3,7 @@ $(function () {
     lightbox();
     sticky();
     utils();
-    map();
+    //map();
     demo();
 
 });
@@ -115,12 +115,12 @@ function utils() {
     /* animated scrolling */
 
     $('.scroll-to, #navigation a').click(function (event) {
-        event.preventDefault();
+        //event.preventDefault(); If scroll function is working, uncomment this line to show scroll animation
         var full_url = this.href;
         var parts = full_url.split("#");
         var trgt = parts[1];
 
-        $('body').scrollTo($('#' + trgt), 800, {offset: -40});
+        $('body').scrollTo($('#' + trgt), 800, {offset: -40}); //This function to show scroll animation is broken
 
     });
 
